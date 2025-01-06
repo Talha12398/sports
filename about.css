@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+  }
+  
+  .nav-list li {
+    margin: 0 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #007bff;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-section, .mission-section, .cricket-section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2, .mission-section h2, .cricket-section h2 {
+    color: #004d1a; 
+    font-size: 28px;
+}
+
+.cricket-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.cricket-section ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #004d1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

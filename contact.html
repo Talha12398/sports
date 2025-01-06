@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>Buy Future</span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have a question or need assistance? We are here to help! Please fill out the contact form below, and our team will get back to you as soon as possible.</p>
+            <form action="/submit-form" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Subject of your inquiry">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+        <section class="address-section">
+            <h3>Our Location</h3>
+            <p>We are located at:</p>
+            <p><strong>Sports Store</strong></p>
+            <p>123 Sporty Avenue, Sports City, Country</p>
+            <p>For direct inquiries, feel free to give us a call or send us an email:</p>
+            <p><strong>Email:</strong> support@sportsstore.com</p>
+            <p><strong>Phone:</strong> +123-456-7890</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cricket World. All rights reserved.</p>
+        <p><a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-of-service">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
